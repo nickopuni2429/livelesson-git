@@ -1,3 +1,4 @@
+
 - `git init`: initialize current folder as a git repository
 - `git clone <URL>`: brings the git repo from <URL> to the current folder
 - `git status`: tells us what we need to know about our repository
@@ -19,6 +20,8 @@
 		- `git checkout <HASH OR HEAD~>`: if you forget the file, you'll end up in detached HEAD state.
 		- `git checkout master`: go back to master
 		- `git switch master`: go back to master
+
+# remotes
 
 - `git remote add <NAME> <URL>`: adds the <URL> as a remote with the name <NAME>
 	- <NAME> is by convention called `origin`
