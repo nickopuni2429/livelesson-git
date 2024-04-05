@@ -46,5 +46,15 @@
 - `git rebase`: command to change the history of a commit
 	- Commits from `git merge` can be automatically combined
 - `git rebase <BRANCH>`: incorporate changes from <BRANCH> into current branch
+	- `git status` : is your friend
+	- `git add <FILE>`: to mark conflict resolution
+	- `git rebase --continue`: move to next commit in rebase
+	- `git rebase --abort`: undo git rebase step
+- `git rebase -i <COMMIT>`: `HEAD~` or <HASH> of commit to go into interactive rebase
 	- you can make multiple commit changes here, e.g., `squash`/`s`
 	- `git rebase -i <HASH>^`: use ^ to include that commit in interactive rebase
+- `git stash` or `git commit`: to save work before moving branches
+	- `stash` is temporary
+	- `git stash list`: see your stashed commits
+	- `git stash apply`: apply your last stashed commit
+	- `git stash clear`: clean up your stashes
