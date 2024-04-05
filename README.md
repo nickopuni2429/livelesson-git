@@ -34,11 +34,7 @@
 	- `git push origin main`
 - `git pull <WHERE> <WHAT>`: pulls the <WHAT> branch in the <WHERE> to the local computer
 
-<<<<<<< HEAD
-## BRANCHES - main commit 3
-=======
 ## Branches
->>>>>>> rebase_squash_conflict
 
 - `git branch <NAME>`: create branch <NAME> where you are (HEAD)
 - `git switch <NAME>`: move to the branch <NAME>
