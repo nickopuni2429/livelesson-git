@@ -65,12 +65,15 @@
 
 - A merge conflict can happen after a PR is issued.
 - `git fetch`: update your git log without making any changes to your files
-    - `git fetch --prune`: update your log and also remove deleted remote branches
+        - `git fetch --prune`: update your log and also remove deleted remote branches
 
 - `git push -f <WHERE> <WHAT>`: force push to the remote <WHERE> the branch <WHAT>
-    - `git push --force-with-lease` <WHERE> <WHAT> more mindful of collaborators
+        - `git push --force-with-lease` <WHERE> <WHAT> more mindful of collaborators
 
 ## Collaborators
 
+- Second person to push, needs to sync the history
 - Add collaborators in repository settings
-- colaborators will then `git clone <URL>` to get repo on their computer
+- collaborators will then `git clone <URL>` to get repo on their computer
+- Each person's branch changes are independent from one another
+- Feature branches won't show conflicts until one of them is merged first
