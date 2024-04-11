@@ -76,4 +76,8 @@
 - Add collaborators in repository settings
 - collaborators will then `git clone <URL>` to get repo on their computer
 - Each person's branch changes are independent from one another
+<<<<<<< HEAD
 - Feature branches won't show conflicts until one of them is merged first
+=======
+- Feature branches won't show conflicts until one of them is merged first
+>>>>>>> collab_feature
